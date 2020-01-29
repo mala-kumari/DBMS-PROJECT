@@ -1,0 +1,124 @@
+<!doctype html>
+<style>
+
+.header{
+       padding:2px 16px;
+      text-align:left;
+      background:#0033CC;
+      color:white;
+}
+table,th,td{
+border:1px solid black;
+}
+.para{
+      float:right;
+      margin-right:1020px;
+      color:red;
+      }
+.si{
+    float:right;
+    margin-right:960px;
+    margin-bottom:20px;
+    color:black;
+   }
+</style>
+<script>
+function but()
+{
+var one=document.getElementById("one").value;
+var two=document.getElementById("two").value;
+var three=document.getElementById("three").value;
+var four =document.getElementById("four").value;
+var fif=document.getElementById("fif").value;
+var six=document.getElementById("six").value;
+var seven=document.getElementById("seven").value;
+
+
+var openwindow=window.open("file:///C:/Users/DELL/Desktop/DBMS%20project/firview.html");
+
+openwindow.document.getElementById("p1").innerHTML=one;
+openwindow.document.getElementById("p2").innerHTML=two;
+openwindow.document.getElementById("p3").innerHTML=three;
+openwindow.document.getElementById("p4").innerHTML=four;
+openwindow.document.getElementById("p5").innerHTML=fif;
+openwindow.document.getElementById("p6").innerHTML=six;
+openwindow.document.getElementById("p7").innerHTML=seven;
+}
+</script>
+<body bgcolor="lightblue">
+<div class="header">    
+<img src="C:\Users\DELL\Downloads/s3.jpg"width="10%" hight="50%">     
+</div>
+<table style="width:10%" hight="10%">
+<tr>
+<td>Time Details</td></tr>
+<tr>
+<td>History of Police</th></td>
+<tr>
+<td>Details of forensic Doctor</td></tr>
+<tr>
+<td>Attach Evidence Details</td></tr>
+<a href="malak.html">
+<tr>
+<td>Attach Evidence image</td></tr></a>
+<tr>
+<td>Attach investigation Details</td></tr>
+<tr>
+<td>Attach per day Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<tr>
+<td>Attach postmortem Details</td></tr>
+<div class="para">
+<p style="font-size:20px;" "color:red;">Submit complaints Information From  :</p>
+</div>
+<div class="si">
+
+<p style="font-size:20px;">submit to Police Station :</p>
+<p>District Name :<input id="one" name="name" type="text" size="15">
+<p>Police Station Name :<input id="two" name="name" type="text" size="15">
+<p style="font-size:20px;">Details of Complaint/Information to Police:</p>
+<p>Complaint type :<input id="three" name="name" type="text" size="15">
+<p>Occurance Date:<input id="four" name="name" type="text" size="15">
+<p>Details     :
+<textarea id="fif" rows="3" cols="20">
+</textarea>
+</p>
+<p>Suspect D.:
+<textarea id="six" rows="2" cols="20">
+</textarea>
+</p>
+<p style="font-size:20px;">Your Details :</p>
+<p>Name with Contact No.and Add.:<input id="seven"  name="name" type="text" size="15">
+<p>category:<BR>sc<input id="se" name="cat" type="radio">st<input name="cat" type="radio">GEN<input name="cat" type="radio">OBC<input name="cat" type="radio">
+<p>Identification No.:<input id="ei" name="name" type="text" size="15">
+<p>Permanent Address:
+<textarea id=nine" rows="2" cols="20">
+</textarea>
+</p>
+<p>Contact No.:<input id="eight" name="name" type="text" size="15">
+
+<p>Email  Id :<input id="ele" name="name" type="text" size="15"></p>
+<button onclick="but()">Save</button>
+<button onclick="document.getElementById().style.display='block'"style="width:auto;">Cancel</button>
+</div>
+</body>
+</html>

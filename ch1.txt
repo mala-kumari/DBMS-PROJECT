@@ -1,0 +1,32 @@
+<! doctype html>
+<head>
+<style>
+.ho{
+margin-top:150px;
+}
+</style>
+<body bgcolor="lightblue">
+    <form action="s1.php" method="post">
+<div class="ho">
+<center>
+<h1>Designation Master</h1>
+<p><Table>
+<tr><td></td></tr></table>
+<p>Designation ID: <select name="desi_id">
+<option>E1203</option>
+<option>E1204</option>
+<option>E1205</option>
+<option>E1206</option>
+<option>E1207</option>
+</select>
+<p>Designation Name<input name="Des_name" type="text" size="18"></p>
+<p>Designation Desc<input name="Desc_name" type="text" size="18">
+</p>
+<button type="Insert" name="insert">Insert</button>
+<button onclick="document.getElementById().style.display='block'"style="width:auto;">Search</button>
+<button onclick="document.getElementById().style.display='block'"style="width:auto;">Delete</button>
+</div>
+</form>
+</body>
+</head>
+</html>

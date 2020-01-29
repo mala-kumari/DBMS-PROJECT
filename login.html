@@ -1,0 +1,139 @@
+<! doctype html>
+<style>
+.gt{
+   text-align:center;
+   margin-top:65px;
+   text-size:50px;
+color:black;
+   }
+.w3-container1{
+    padding:0;
+    float:right;
+    margin-right:100px;
+   }
+.w3-container{
+    padding
+    float:left;
+    margin-left:0px;    
+}
+.col-right{
+    float:left;
+    padding:0;
+    margin-left:200px;
+   }
+.img1{
+   padding:0;
+   margin-left:600px;
+  }    
+
+.img2{
+     
+   
+              max-width: 100px;
+             position: relative;
+             margin: auto;
+             float:right;
+             margin-right:100px;
+             width:0 0 800px;
+             }    
+  
+.mySlides {display:none;
+text-align="right";}
+</style>
+<body>
+<center>
+<h1>CRIME RECORD MANEGMENT SYSTEM</h1>
+<img src="sym.jpg"><br>
+</center>
+<div class="gt">
+<p>User Name :<input name="name" type="text" size="20">
+<p>Password : <input name="name" type="text" size="22">
+<a href="fir.html">
+</p>
+<button onclick="document.getElementById().style.display='block'"style="width:auto;">Next</button>
+</a>
+<button onclick="document.getElementById().style.display='block'"style="width:auto;">Save</button>
+</div>
+<div class="w3-container">
+ <!-- <h1 style="color:blue;">Most Wanted</h1><br>-->
+  </div>
+  <div class="col-right">
+<!--  <h1 style="color:blue;">Missing Person</h1> -->
+</div> 
+<div class="w3-container1">
+<!--<h1 style="color:blue;">Ciber Crime</h1><br>-->
+</div> 
+<div class="w3-content w3-section" style="max-width:500px" text-align="bottom">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/wanted1.jpg" style="width:70%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/wanted2.jpg" style="width:70%">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/wanted3.jpg" style="width:70%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/wanted4.jpg" style="width:70%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+<div class="img1">
+<div class="w3-content w3-section" style="max-width:500px" text-align="bottom">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/mis1.jpg" style="width:50%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/mis2.jpg" style="width:50%">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/mis3.jpg" style="width:50%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/s1.jpg" style="width:50%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+<div class="img2">
+<div class="w3-content w3-section" style="max-width:500px" text-align="bottom">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/cy1.jpg" style="width:300%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/cy2.jpg" style="width:300%">
+  <img class="mySlides w3-animate-top" src="C:\Users\DELL\Downloads/cy3.jpg" style="width:300%">
+  <img class="mySlides w3-animate-bottom" src="C:\Users\DELL\Downloads/cy4.jpg" style="width:300%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+
+
+</body>
+</html>
